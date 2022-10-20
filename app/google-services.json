@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "330565578783",
+    "project_id": "odc-android-final-project",
+    "storage_bucket": "odc-android-final-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330565578783:android:42a0f386b37dc10081652a",
+        "android_client_info": {
+          "package_name": "com.example.onlinegroceriesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330565578783-j2ibn740ui8tqcofosm3k8om3ehre4m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinegroceriesapp",
+            "certificate_hash": "f994161b43ad01ae88183aca5fb8bff42ca1c8c7"
+          }
+        },
+        {
+          "client_id": "330565578783-6m39h42f4cru9nf8oht3bcbhrv3catai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkbRjs2ht9EmrSMPHaw_ROIj374Hl7Xug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330565578783-6m39h42f4cru9nf8oht3bcbhrv3catai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

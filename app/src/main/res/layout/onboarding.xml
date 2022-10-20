@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onboarding"
+    android:clipToOutline="true"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/carrot"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:translationY="400dp"
+        android:src="@drawable/logo_carrot" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="253dp"
+        android:layout_height="86dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:translationY="410dp"
+        android:text="Welcome\n to our store"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/gilroy_regular"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#808080"
+        android:textAlignment="center"
+        android:translationY="420dp"
+        android:gravity="center"
+        android:fontFamily="@font/gilroy_light"
+        android:textSize="17dp"
+        android:text="Get your groceries in as fast as one hour" />
+
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#53B175"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:translationY="450dp"
+        android:text="Get Started"
+        android:fontFamily="@font/gilroy_semibold"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</LinearLayout>
+
