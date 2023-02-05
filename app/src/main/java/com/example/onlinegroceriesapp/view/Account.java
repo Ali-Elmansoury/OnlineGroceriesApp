@@ -9,6 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.onlinegroceriesapp.R;
+import com.example.onlinegroceriesapp.util.Utils;
 
 public class Account extends AppCompatActivity {
     ImageView shop,explore,cart,favorite,account;
@@ -44,6 +45,7 @@ public class Account extends AppCompatActivity {
             startActivity(intent);
         });
         log_out.setOnClickListener(view -> {
+            Utils.removeData(getApplicationContext(),"IS_LOGGED_IN");
             Intent intent = new Intent(Account.this,LogIn.class);
             startActivity(intent);
         });

@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.onlinegroceriesapp.R;
+import com.example.onlinegroceriesapp.util.Utils;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
@@ -54,7 +55,6 @@ public class LogIn extends AppCompatActivity {
                             "Please enter email!!",
                             Toast.LENGTH_LONG)
                     .show();
-            return;
         }
 
         if (TextUtils.isEmpty(password)) {
@@ -62,7 +62,6 @@ public class LogIn extends AppCompatActivity {
                             "Please enter password!!",
                             Toast.LENGTH_LONG)
                     .show();
-            return;
         }
 
         // signin existing user
@@ -84,6 +83,7 @@ public class LogIn extends AppCompatActivity {
                                             = new Intent(LogIn.this,
                                             SelectLocation.class);
                                     startActivity(intent);
+                                    Utils.writeData(getApplicationContext(),"IS_LOGGED_IN",true);
                                 }
 
                                 else {
